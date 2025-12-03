@@ -1,7 +1,6 @@
-# practice on some real world scenarios
-
-## Unit Converter Factory - converts one type of unit measurement to another type of unit measurement
-
+## Unit Converter Factory
+## converts one type of unit measurement to another type of unit measurement
+## ===========================================================================
 
 # ======================
 # ROUTING FUNCTION
@@ -38,17 +37,17 @@ def inch_converter():  # Converting tool / main function
 
 
 def temp_converter():
-    temp = fahr_to_celc(int(input("Enter the temperature in fahrenheit: ")))
+    temp = fahr_to_celsius(int(input("Enter the temperature in fahrenheit: ")))
     print(f"Your temperature in Celsius is: {temp:.2f}")
 
 
 def weight_converter():
-    weight = lbs_to_kgs(float(input("Enter your current weight in pounds: ")))
+    weight = lbs_to_kg(float(input("Enter your current weight in pounds: ")))
     print(f"Your current weight in kilograms is: {weight:.2f}")
 
 
 def time_converter():
-    hours = hour_to_min(int(input("Enter the amount of hours: ")))
+    hours = hour_to_minutes(int(input("Enter the amount of hours: ")))
     print(f"That equals {hours:.2f} minutes.")
 
 
@@ -61,15 +60,15 @@ def inch_to_cm(n):  # inches to centimeters  / function that takes input
     return float(n) * 2.54
 
 
-def fahr_to_celc(n):  # fahrenheit to celcius  / function that takes input
+def fahr_to_celsius(n):  # fahrenheit to celcius  / function that takes input
     return (float(n) - 32) / 1.8
 
 
-def lbs_to_kgs(lbs):  # pounds to kilograms  / function that takes input
+def lbs_to_kg(lbs):  # pounds to kilograms  / function that takes input
     return float(lbs) * 0.453592
 
 
-def hour_to_min(hour):
+def hour_to_minutes(hour):  # hours to minutes / function that takes input
     return float(hour) * 60
 
 

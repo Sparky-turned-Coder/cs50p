@@ -1,0 +1,231 @@
+Table of contents 
+
+ 
+
+SECTION 1:   Projects that exercise the use of functions** 
+
+SECTION 2:   Projects that exercise the use of loops** 
+
+SECTION 3:   Small projects that exercise the use of algorithmic thinking (such as CS50 problem sets, for instance). Keep it small.  
+
+SECTION 4:   Data structures and Algorithms  
+
+ 
+
+ 
+
+ 
+
+ 
+
+SECTION 1: Projects (involving functions) 
+
+ 
+
+Unit converter Factory 
+
+Write a program that converts: 
+
+Inches > centimeters  
+
+Pounds > kg 
+
+Fahrenheit > Celsius 
+
+Hours > minutes 
+
+Stipulations: 
+
+Each conversion must be its own function.  
+
+A master function routes calls. 
+
+ 
+
+ 
+
+“Math Toolkit” CLI 
+
+Write a program full of tiny functions: 
+
+add(a, b)   
+
+Subtract(a, b) 
+
+Multiply(a, b) 
+
+Divide(a, b) 
+
+Max-of-three(a, b, c) 
+
+Factorial(n) 
+
+Is-prime(n) 
+
+Fib(n) 
+
+Then a main menu calls these functions.  
+
+ 
+
+ 
+
+String Utilities Library 
+
+Implement functions like: 
+
+count_vowels(text) 
+
+reverse_string(text) 
+
+title_case(text) 
+
+remove_punctuation(text) 
+
+is_palindrome(text) 
+
+word_count(text) 
+
+Then write a small CLI “string analyzer” that lets you run each one. 
+
+ 
+
+ 
+
+4. Dice Roller Engine 
+
+Write functions that simulate different dice behaviors: 
+
+roll_die(sides) 
+
+roll_multiple(n, sides) 
+
+roll_until(target, sides) 
+
+drop_lowest(rolls) 
+
+roll_stats() (like D&D stats calculator) 
+
+This one is fun and very functional-programming friendly. 
+
+ 
+
+ 
+
+5. ATM Simulation 
+
+Everything is a function: 
+
+check_balance() 
+
+withdraw(amount) 
+
+deposit(amount) 
+
+print_receipt() 
+
+Then a main_menu() function calls these. 
+
+ 
+
+*See GPT discussion ‘python expert guidance’ for tier 2 projects. 
+
+ 
+
+ 
+
+SECTION 2: Projects (involving loops)  
+
+ 
+
+ 
+
+1. FizzBuzz Variations 
+
+Classic, but extend it: 
+
+Standard fizzbuzz 
+
+Reverse fizzbuzz (print backwards) 
+
+Only print fizz cases 
+
+Count how many fizzes, buzzes, and fizzbuzzes occur 
+
+All of this is basically just looping. 
+
+ 
+
+ 
+
+  2. Multiplication Table Generator 
+
+Example:  
+
+1   2   3 …  10 
+
+2   4   6 …  20 
+
+Then scale it: 
+
+Let the user choose the size 
+
+Add spacing alignment 
+
+Format as a grid 
+
+ 
+
+ 
+
+Pattern Printer 
+
+Use loops to print shapes: 
+
+Right triangle of stars 
+
+Centered pyramid 
+
+Diamond shape 
+
+Rectangle border 
+
+This is good practice learning nested loops and index control. 
+
+ 
+
+ 
+
+Countdown/Count-Up Engine 
+
+Build a program that: 
+
+Counts up from 1 to N 
+
+Counts down from N to 0 
+
+Counts by 2’s, 3’s, user-chosen step 
+
+Skips certain numbers  
+
+All using while loops.  
+
+ 
+
+ 
+
+Guess-the-Number Game 
+
+The entire game loop is: 
+
+Loop until guess is correct 
+
+Count how many attempts user takes 
+
+Give hints (too high/too low) 
+
+Small, fun, loop-focused.  
+
+ 
+
+*See GPT discussion ‘python expert guidance’ for tier 2 projects. 
